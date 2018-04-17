@@ -25,7 +25,6 @@ end
 end
 
 def valid_phone_number?(phone)
-  binding.pry
 if phone.match(/[(]?\d{3}[)]?\s?\d{3}[-]?\s?\d{4}\b/)
   true
 else
